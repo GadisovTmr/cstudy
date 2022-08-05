@@ -1,5 +1,18 @@
-﻿int count = 0, distance = 12000, firstFriendspeed = 1, secondFriendspeed = 2, dogSpeed = 5, friend = 2, time = 0;
-while (distance > 10)
+﻿int count = 0, friend = 2, time = 0;
+
+Console.WriteLine ("Введите расстрояние");
+int distance = Convert.ToInt32(Console.ReadLine ());
+
+Console.WriteLine ("Введите скорость первого друга");
+int firstFriendspeed = Convert.ToInt32(Console.ReadLine ());
+
+Console.WriteLine ("Введите скорость второго друга");
+int secondFriendspeed = Convert.ToInt32(Console.ReadLine ());
+
+Console.WriteLine ("Введите скорость собаки");
+int dogSpeed = Convert.ToInt32(Console.ReadLine ());
+
+while (distance > 10)   
 {
   if (friend == 1) 
   {
